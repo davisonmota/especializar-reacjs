@@ -1,0 +1,58 @@
+.conteiner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.conteiner header {
+  margin: 8.4rem 0 2.4rem;
+  width: 90%;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.conteiner header img {
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  margin-left: 10px;
+}
+
+.conteiner header div {
+  display: flex;
+  align-items: center;
+}
+
+.conteiner input {
+  width: 90%;
+  padding: 24px;
+
+  background: rgba(219, 219, 219, 0.95);
+  border-radius: 10px;
+  border: none;
+
+  font-size: 14px;
+}
+
+.conteiner button {
+  width: 90%;
+  margin: 20px 0 60px;
+
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #ea4c89;
+  color: #ffffff;
+
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.conteiner button:hover {
+  filter: brightness(0.7);
+}
